@@ -39,7 +39,7 @@ else:
     else:
         print("OPCION NO VALIDA")
 
-    if valor1 in (f"{linterna}, "1", "mapa", "3"):
+    if valor1 in ["linterna", "1", "mapa", "3"]:
 
         puerta = input("\nQUE PUERTA ABRES 1: Puerta Negra 2: Puerta Roja 3: Puerta Azul: ").lower()
 
